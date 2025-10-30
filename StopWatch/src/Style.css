@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: linear-gradient(120deg ,#9bff6d,rgb(248, 124, 124) ,#5574da);
+}
+
+.card{
+    background-color: white;
+    padding: 25px 40px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.1);
+    text-align: center;
+} 
+.card h1{
+    font-size: 50px;
+    font-weight: 900;
+    color: li;
+}
+.card h2{
+    font-size: 50px;
+    font-weight: 900;
+    color: blue;
+}
+
+button{
+    border: none;
+    padding: 10px 20px;
+    /* border: 1px solid red; */
+    margin: 0 15px;
+    text-transform: capitalize;
+    /* font-weight: bold; */
+    font-size: 20px;
+    border-radius: 10px;
+    
+}
+
+#start{
+    background-color: green;
+    color: white;
+}
+#stop{
+    background-color: red;
+    color: white;
+}
+#reset{
+    background-color: blue;
+    color: white;
+}

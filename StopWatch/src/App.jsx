@@ -1,6 +1,7 @@
 import React ,{useRef, useState}from 'react'
 import ControlsUI from './Components/ControlsUI'
 import './Style.css'
+import Mydate from './Components/Mydate'
 
 function App() {
   const [time, settime] = useState(0)
@@ -36,9 +37,13 @@ function App() {
 
   return (
     <div className='card'>
+   
       <h1>Noor Stop Watch</h1>
       <h2 className='time'>{formatTime(time)}</h2>     
       <ControlsUI start={startTImer} stop={stopTimer} reset={resetTime}/>
+
+
+         <Mydate/>
 
     </div>
   )
